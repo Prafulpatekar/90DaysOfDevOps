@@ -1,0 +1,13 @@
+# Understanding Internet Protocols: ARP, RARP, ICMP, TCP, UDP, and FTP
+Imagine you’re sending a letter to a friend who lives in another country. To ensure your letter reaches them, it must pass through several hands — postal workers, customs, and local delivery agents. Similarly, when you send data over the internet, it travels through a structured process guided by specific rules called protocols. Let’s explore some of these protocols and how they help your data reach its destination.
+
+# What I learn:
+1. ARP (Finding the Neighbor’s Address) - Think of ARP (Address Resolution Protocol) as asking, “What’s the house number of my neighbor?” Computers on the same network use ARP to find the hardware (MAC) address of another computer using its IP address. It’s like ensuring your letter gets to the right mailbox in your neighborhood.
+2. RARP (Who Am I?) - Now, let’s flip the question. What if a computer knows its hardware address but doesn’t know its IP address? RARP (Reverse Address Resolution Protocol) steps in to help. It’s like moving into a new house and asking the postal service, “What’s my address so I can receive mail?”
+3. ICMP (The Troubleshooter) - Sometimes, data can’t reach its destination, just like a letter might get lost or delayed. ICMP (Internet Control Message Protocol) is like a postal worker who sends back a “Delivery Failed” notice. It’s used for error reporting and testing connectivity, such as when you ping a website to see if it’s reachable.
+4. TCP (The Reliable Courier) - When sending important documents, you might choose a courier service that guarantees delivery with tracking. That’s TCP (Transmission Control Protocol). It ensures that your data is broken into packets, sent in order, and reassembled correctly at the other end. Reliability is key here.
+5. UDP (The Speedy Messenger) - Sometimes, speed matters more than reliability. Think of UDP (User Datagram Protocol) as sending a quick postcard without worrying about whether it’s received. This is ideal for tasks like live video streaming or online gaming, where a delay is worse than a missing packet.
+6. FTP (The Digital Post Office) - Finally, FTP (File Transfer Protocol) is like a dedicated post office for sending and receiving packages. It allows you to upload and download files between computers. Whether you’re sharing photos or hosting a website, FTP handles the heavy lifting.
+
+To learn more read (Understanding Internet Protocols: ARP, RARP, ICMP, TCP, UDP, and FTP)[https://medium.com/@prafulpatekar23/understanding-internet-protocols-arp-rarp-icmp-tcp-udp-and-ftp-72ff694ff717] blog!
+

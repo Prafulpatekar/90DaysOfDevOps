@@ -1,0 +1,9 @@
+# A Practical Understanding of DHCP, Subnetting, and Routing
+
+## What I learn?
+
+- Dynamic Host Configuration Protocol (DHCP): A network administration protocol that assigns an IP address to any device or component on a network so that they can interact using the Internet Protocol (IP). These settings are automated and managed collectively by DHCP, eliminating the need to explicitly assign IP addresses to new devices. As a result, no user setup is required to join a DHCP-based network.
+- Subnet: A subnet or subnetwork is a smaller network inside a larger network. Subnetting makes network routing much more efficient by splitting a large network into smaller segments, improving security and manageability.
+- Router: A router is a device that determines the path for data to travel from source to destination. Routing refers to the process of selecting the best path for data transmission.
+
+To learn more read (A Practical Understanding of DHCP, Subnetting, and Routing)[https://medium.com/@prafulpatekar23/a-practical-understanding-of-dhcp-subnetting-and-routing-89f58a7bda38] blog!

@@ -13,6 +13,9 @@ Networking commands are essential for diagnosing, troubleshooting, and optimizin
   ```bash
   ping google.com
   ```
+- Output:
+![image](https://github.com/user-attachments/assets/8af88072-b08e-47d3-a5ae-1112b69d1f9f)
+
   
 ### 2️⃣ **Traceroute / Tracert** - Trace Packet Routes
 - Shows the path packets take to reach a destination.
@@ -21,6 +24,9 @@ Networking commands are essential for diagnosing, troubleshooting, and optimizin
   traceroute google.com  # Linux/macOS
   tracert google.com     # Windows
   ```
+- Output:
+![image](https://github.com/user-attachments/assets/17f8ba15-a321-4b79-8b77-7d57d74a7ea8)
+
   
 ### 3️⃣ **Netstat** - Display Network Statistics
 - Shows active connections, listening ports, and routing tables.
@@ -28,6 +34,9 @@ Networking commands are essential for diagnosing, troubleshooting, and optimizin
   ```bash
   netstat -an
   ```
+- Output:
+![image](https://github.com/user-attachments/assets/2aa29523-fa4b-43cf-9c37-b78476817d5a)
+
   
 ### 4️⃣ **Curl** - Make HTTP Requests
 - Used to interact with URLs and APIs.
@@ -35,6 +44,9 @@ Networking commands are essential for diagnosing, troubleshooting, and optimizin
   ```bash
   curl -I https://www.example.com
   ```
+- Output:
+![image](https://github.com/user-attachments/assets/fc1440e2-2a6d-4b55-a3aa-b5f3e3944919)
+
   
 ### 5️⃣ **Dig / Nslookup** - DNS Lookup
 - Used to query DNS records and troubleshoot domain issues.
@@ -43,6 +55,9 @@ Networking commands are essential for diagnosing, troubleshooting, and optimizin
   dig google.com  # Linux/macOS
   nslookup google.com  # Windows
   ```
+- Output:
+![image](https://github.com/user-attachments/assets/c663dc22-999d-41c0-aa7e-07f4fc4f4984)
+
 
 ---
 
@@ -74,4 +89,4 @@ Networking commands are essential for diagnosing, troubleshooting, and optimizin
 
 📌 **GitHub Repository:** [90 Days of DevOps - Networking]📌 (https://github.com/Prafulpatekar/90DaysOfDevOps/tree/master/2025/networking)  
 
-🚀 **Happy Networking!** 🎉
+🚀 **Happy Coding!** 🎉

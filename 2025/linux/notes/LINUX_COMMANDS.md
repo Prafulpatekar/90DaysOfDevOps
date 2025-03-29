@@ -84,40 +84,33 @@ whoami
 cat /etc/passwd
 ```
 
-15. **Create New user** - To create or add new user. -m (make a home dir folder) to give folder and this command needs sudo permissions. -s to give shell to user.
+15. **Copy a file** - To copy file from one location to other.
 ```sh
-sudo useradd -m <username>
-```
-or
-```sh
-sudo useradd <username>
-```
-or 
-```sh
-sudo useradd -m <username> -s /bin/bash
+cp /path/to/source /path/to/destination
 ```
 
-16. **Create password for user** - To create new password for user. Enter the command and prompt will ask to enter new password.
+16. **Server Copy a file** - To copy file from one server location to other server location.
 ```sh
-sudo passwd <username>
+scp -i /path/to/key.pem /path/to/source <username>@<ip_address>:/path/to/destination/folder
 ```
 
-17. **Switch user** - To swtich user.
-```sh
-su <username>
-```
 
-18. **View Running processes** - To view running process
+17. **View Running processes** - To view running process
 ```sh
 ps
 ```
 
-19. **view disk space usage** - To view disk space usage in linux.
+18. **view disk space usage** - To view disk space usage in linux.
 ```sh
 df -h
 ```
 
-20. **terminate a process** - To terminate a process in linux.
+19. **terminate a process** - To terminate a process in linux.
 ```sh
 kill
+```
+
+20. **List all history command** - To history commands.
+```sh
+history
 ```
